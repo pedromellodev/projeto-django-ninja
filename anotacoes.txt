@@ -25,3 +25,9 @@ http://127.0.0.1:8000/admin
 
 - comando para criar um superuser
 python manage.py createsuperuser
+
+- comando para instalar as dependencias do projeto
+pip install -r requirements.txt
+
+- comando para atualizar o requirements.txt
+pip freeze > requirements.txt
