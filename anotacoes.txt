@@ -1,0 +1,27 @@
+- criei o ambiente virtual
+python -m venv venv (venv nome do ambiente virtual)
+
+- ativei o ambiente virtual
+.\venv\Scripts\activate
+
+- instalação dependencia django
+pip install django
+
+- criação projeto django
+django-admin startproject nome_do_seu_projeto .
+
+- iniciando aplicação
+python manage.py runserver
+
+- comando para instalar as tabelas
+python manage.py makemigrations
+python manage.py migrate
+
+- instalação dependencia django-ninja
+pip install django-ninja
+
+- acessando pagina administradora django
+http://127.0.0.1:8000/admin
+
+- comando para criar um superuser
+python manage.py createsuperuser
